@@ -1,0 +1,40 @@
+body{
+    margin: 0 auto;
+    width: 1220px;
+    background-color: #000000;
+}
+ul,ol,li{
+    list-style: none;
+}
+.main{
+    background-color: #ffffff;
+}
+.header{
+    background-color: #00ffff;
+
+}
+.nav{
+    height: 50px;
+    background-color: #ffffff;
+}
+.nav_left{
+    float: left;
+}
+.nav>.nav_left>img{
+    height:50px;
+}
+.nav_right{
+    float: right;
+}
+.nav_right>ul>li{
+    float: left;
+    color: blue;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.airticle>p{
+    background-color: antiquewhite;
+    border: 2px solid #dddddd;
+    box-shadow: black;
+    margin: 10px;
+}
